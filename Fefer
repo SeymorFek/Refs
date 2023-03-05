@@ -1,0 +1,118 @@
+def func9(arg41, arg42):
+    var46 = func10(arg41, arg42)
+    var52 = func12(var46, arg41)
+    if arg42 < var52:
+        var53 = -1792821395 + ((var46 + arg41) | var46 & ((arg42 - (var46 + (15 ^ -3562214 ^ 784 + arg41) & (-777547469 ^ (var52 & -1255560388 | (-471 & arg41))) | (-883 + arg41) & ((var46 & var52) - -232104992 - var52))) & var46))
+    else:
+        var53 = arg41 - (var46 & arg41) ^ 668
+    var54 = (arg42 + var52 & var46) ^ (arg42 | -641)
+    var55 = arg41 & ((var52 ^ arg42 - arg42 | var54 & var52 ^ var46) - var46 & 1612522916 ^ arg42 | (var54 - 465)) ^ 638 | arg41
+    var56 = var52 - (var46 | (((((872274131 + (635 ^ 135) | -465) + var52) - (arg41 - (var52 + (var52 + (var46 + var55)) & arg42 + arg41)) | arg41) | -27159510 - var54 + 776) | arg42) | var52 & arg42) - -1026951345
+    result = (-881 + (arg41 | arg41 - (var52 - var55))) & (var56 ^ var46)
+    return result
+def func12(arg47, arg48):
+    var49 = 1487655050 - (-655 + ((-615 & -994 - arg47) ^ arg48 & 257477247) + arg48)
+    var50 = var49 + 703
+    var51 = (var50 ^ arg48) ^ var50
+    result = var50 + var51 - var49
+    return result
+def func8(arg34, arg35):
+    var36 = (arg35 + ((-548 + (-104 ^ arg34 | arg35) + (arg35 - ((arg35 ^ arg34) + arg35 - arg34 | arg35 - 488 - arg34 + arg35))) + -319 | ((arg34 ^ arg35) | arg34 | 1732567874 & arg34)) + 1466594768) & -1906465129
+    var37 = -204 + -720 + ((var36 - var36) ^ arg35) & (arg34 - -888922511) + arg34 | (arg34 ^ (arg35 ^ arg35 - arg34 | arg34 - var36 & (766795635 ^ var36 | (arg35 & var36 & 519767599) + arg35) ^ 648 | arg34))
+    if arg35 < var36:
+        var38 = var37 + (arg35 ^ (arg35 - arg34 + ((-1474243219 - ((11779538 + arg34 | arg35) - arg35)) + var37 + (arg34 & var36 ^ (var36 + ((var37 & 110 - 318) ^ var36)) + var36))) | arg34) ^ arg34 + 1650004746 & var37
+    else:
+        var38 = (1849551309 & var36) ^ 225
+    var39 = arg34 ^ arg34
+    var40 = var37 + var39
+    result = (var40 & var36) - (var39 - var37)
+    return result
+def func3(arg14, arg15):
+    var16 = func6()
+    var22 = func7(arg14, var16)
+    var23 = ((arg14 + arg15) & arg14) - var16
+    var24 = 1936900157 & (var23 ^ (103 | var23))
+    var25 = var24 | -871 ^ (arg14 + arg14)
+    var26 = ((var23 + -1969144207) | 1982381926) + 953178730
+    var27 = (var25 - var24 - var25) | var26
+    var28 = 166 - var22
+    var29 = var24 | (var16 + var26 + var16)
+    var30 = var29 + var24 ^ var16 ^ var24
+    var31 = -721 & var29 | var30 - var29
+    var32 = (var28 & -429 ^ var16) & var27
+    var33 = 1658423933 & var27 - var31 | var32
+    result = arg15 ^ var24
+    return result
+def func7(arg17, arg18):
+    var19 = -1766819336 | -441653398
+    var20 = var19 - var19
+    var21 = (-1194180026 | var19) - (arg18 & ((var20 + arg18 + (546 ^ var20 ^ 1374318570) + (var20 + arg18 + -1753566695 ^ ((1218071367 & arg18) - arg17) | 691)) - -254) & (1550350796 | arg18 & arg17 - var20) & var19) + 150
+    result = (var20 | arg17) - (var19 + (512 ^ arg18))
+    return result
+def func6():
+    func4()
+    result = len(range(44))
+    func5()
+    return result
+def func5():
+    global len
+    del len
+def func4():
+    global len
+    len = lambda x : 4
+def func1(arg1, arg2):
+    def func2(arg3, arg4):
+        var5 = -480 + (arg4 | arg2 ^ -1031666795 & 2061638956)
+        var6 = (arg2 + ((-310 | var5) ^ arg2) ^ -1503677567) | arg3
+        var7 = 1704160801 + var5 & arg1
+        var8 = ((var7 ^ (var6 ^ arg4) + (arg1 & arg3 + arg3) - (arg3 ^ arg3) | var7) ^ (var7 & ((arg3 + var6 | (((arg2 - var6) - (223 | 434736014)) + -310) | arg3) | var6)) | -258) & arg3 ^ arg2
+        result = var6 | var5 + -1150085886 & arg4 & -1932016164 ^ (arg2 + ((arg1 + var6) + arg3) | var8)
+        return result
+    var9 = func2(arg1, arg2)
+    var10 = ((715 ^ 807) & arg1) | (arg1 ^ arg2)
+    var11 = var10 | var10 | var10 + var10
+    var12 = arg1 & arg2
+    var13 = arg1 | (var11 - var12 - var11)
+    result = var11 + var10 & var12
+    return result
+def func10(arg43, arg44):
+    closure = [0]
+    def func11(acc, rest):
+        var45 = -3 + closure[0]
+        closure[0] += var45
+        if acc == 0:
+            return var45
+        else:
+            result = func11(acc - 1, var45)
+            return result
+    result = func11(10, 0)
+    return result
+if __name__ == "__main__":
+    print 'prog_size: 1'
+    print 'func_number: 3'
+    print 'arg_number: 14'
+    for i in xrange(25000):
+        x = 5
+        x = func1(x, i)
+        print x,
+    print 'prog_size: 3'
+    print 'func_number: 8'
+    print 'arg_number: 34'
+    for i in xrange(25000):
+        x = 5
+        x = func3(x, i)
+        print x,
+    print 'prog_size: 3'
+    print 'func_number: 9'
+    print 'arg_number: 41'
+    for i in xrange(25000):
+        x = 5
+        x = func8(x, i)
+        print x,
+    print 'prog_size: 5'
+    print 'func_number: 13'
+    print 'arg_number: 57'
+    for i in xrange(25000):
+        x = 5
+        x = func9(x, i)
+        print x,
